@@ -1,8 +1,8 @@
 package com.example.introduccionkotlin
 
-class Persona {
-    var car: Int = 50
-    fun auto(){
-         car = 10
+class Persona(var name: String ="Anonimo", var passport: String? = null) {
+    fun Persona(){
+        name = "Marcelo"
+        passport = "Canada"
     }
 }
