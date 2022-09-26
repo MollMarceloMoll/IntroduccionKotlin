@@ -12,8 +12,11 @@ class MainActivity : AppCompatActivity() {
         var b: Persona = Persona()
         println(a.name)
         println(a.passport)
+
         b.Persona()
         println(b.name)
         println(b.passport)
+
+       var c: Pokemon = Pokemon()
     }
 }
