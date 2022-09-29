@@ -28,6 +28,16 @@ class MainActivity : AppCompatActivity() {
         println(messi.passport)
         println(messi.sport)
 
+        var messii: Info = Info (name ="Messi", passport ="ERT4848", age = 35, altura =1.60f, peso = 65 )
+
+        println(messii.alive)
+        println(messii.name)
+        println(messii.passport)
+        println(messi.sport)
+        println(messii.age)
+        println(messii.altura)
+        println(messii.peso)
+
        var c: Pokemon = Pokemon()
     }
 }
