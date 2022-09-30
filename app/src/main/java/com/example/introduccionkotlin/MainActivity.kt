@@ -38,6 +38,13 @@ class MainActivity : AppCompatActivity() {
         println(messii.altura)
         println(messii.peso)
 
+        var mesi : Car = Car (name = "Messi", passport ="ERT4848", vehicle = "Mercedes Benz")
+
+        println(mesi.name)
+        println(mesi.passport)
+        println(mesi.vehicle)
+
+
        var c: Pokemon = Pokemon()
     }
 }
