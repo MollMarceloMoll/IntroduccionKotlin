@@ -13,5 +13,5 @@ open class Persona (var name: String = "Anonimo", var passport: String? = null) 
 }
 class Info (name: String, passport: String?, var age: Int, var altura: Float, var peso: Int): Persona (name, passport)
 class Athlete (name: String, passport: String?, var sport: String): Persona (name, passport)
-class Car (name: String, passport: String?, var vehicle : String): Persona (name, passport)
+class Car (name: String, var vehicle : String): Persona (name)
 
