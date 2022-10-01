@@ -45,5 +45,10 @@ class MainActivity : AppCompatActivity() {
 
 
        var c: Pokemon = Pokemon()
+
+        var tic : Ticket = Ticket(name = "Marcelo", coder = 10f, position = "Nort")
+        println(tic.name)
+        println(tic.coder)
+        println(tic.position)
     }
 }
