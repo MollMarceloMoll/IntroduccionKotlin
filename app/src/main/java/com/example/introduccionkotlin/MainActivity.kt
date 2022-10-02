@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        var a: Persona = Persona(name = "Marcelo", passport = "AQQW7874")
+        var a: Persona = Persona(name = "Marcelo", passport = "AQUA7874")
         var b: Persona = Persona()
         println(a.alive)
         println(a.name)
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         println(mesi.vehicle)
 
 
-       var c: Pokemon = Pokemon()
+       //var c: Pokemon = Pokemon()
 
         var tic : Ticket = Ticket(name = "Marcelo", coder = 10f, position = "Nort")
         println(tic.name)
