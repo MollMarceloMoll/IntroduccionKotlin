@@ -50,5 +50,6 @@ class MainActivity : AppCompatActivity() {
         println(tic.name)
         println(tic.coder)
         println(tic.position)
+        println(tic.register())
     }
 }
